@@ -39,7 +39,7 @@ NEXT_PUBLIC_CALLBACK_POLL_INTERVAL=1000
 In your OpenServ workspace, add a secret:
 
 - **Name**: `frontend_url`
-- **Value**: `http://localhost:3000/api/callback`
+- **Value**: `http://your_ngrok_url/api/callback`
 
 (In production, use your deployed URL like `https://yourdomain.com/api/callback`)
 
